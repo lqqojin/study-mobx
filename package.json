@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node index.js"
+    "start": "nodemon --exec babel-node Convenience.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
